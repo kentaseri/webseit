@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>オープニング</title>
+    <!-- 外部スタイルシートへのリンク -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- index2.htmlに10秒後に飛ぶ -->
+    <!-- <meta http-equiv="refresh" content=" 10; url=http://127.0.0.1:5500/index2.html"> -->
+
+    <!-- アニメーションと音声を含むコンテンツのエリア -->
+    <div id="animationContainer" class="animate-paused">
+        <!-- アニメーション開始用の画像 -->
+        <img id="startAnimation" src="画像/spTuneL85lZUo101691127559_1691127578.jpg" alt="アニメーションと音を開始" onclick="startAnimation()">
+        
+        <!-- テキストアニメーションのコンテナ -->
+        <div class="lupin_box">
+            <!-- テキストアニメーション対象のテキスト -->
+            <p class="lupin animate-lupin" id="animatedText">世利健太のポートフォリオ</p>
+        </div>
+    </div>
+
+    <div class="skill">
+        <p>
+            
+        </p>
+    </div>
+
+    <div id="mask"></div>
+
+    <!-- オーディオ要素 -->
+    <audio id="sound1">
+        <source src="audio/lupan3.mp3" type="audio/mp3">
+    </audio>
+
+    <!-- 外部JavaScriptファイルへのリンク -->
+    <script src="./script.js"></script>
+</body>
+</html>
